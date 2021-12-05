@@ -2,6 +2,8 @@
 title: chan-dongle-extended
 ---
 
+[GitHub repo](https://github.com/garronej/chan-dongle-extended)
+
 ## Motivations
 
 ``asterisk-chan-dongle`` let you use Huawei 3G dongles to place phone calls  
@@ -28,10 +30,30 @@ of ``asterisk-chan-dongle`` alongside fixing bugs and providing many new feature
     when a supported device is connected it is automatically detected  
     by the module and instantiated for you.  
 
+
+## December 2021 update
+
+Recommended debian versions: Stretch (9) or Buster (10).  
+*It can work with newer versin as well, I haven't tested. Any report will be much apreciated at: joseph.garrone.gj@gmail.com*  
+If you chose to go with `Buster` or newer, you need to install `python 2` manually before running the installer.
+
+```bash
+sudo su
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+python get-pip.py
+```
+
+You can also use Ubuntu, [every Ubuntu version have a corresponding Debian version](https://askubuntu.com/a/445496).  
+This means that:
+    - Debian 9 Streatch <-> Ubuntu 17.10 artful, 17.04 zesty, 16.10  yakkety or 16.04 xenial
+    - Debian 10 Buster <-> Ubuntu 19.10 eoan, 19.04  disco, 18.10 cosmic, 18.04 bionic
+
+
+
 ## Installing
 
 System requirements:
-* Debian/Raspbian jessie or newer. ( Should work on Ubuntu as well but untested )
+* Debian/Raspbian jessie or newer
 
 To install simply run this command:
 
@@ -164,4 +186,7 @@ In order to reassemble the message you must base64 decode the concatenation of a
 
 ## Report bugs
 
-Any feedback highly appreciated at *joseph.garrone.gj@gmail.com*
+
+Any feedback highly appreciated.
+Feel free to open an issue or start a discution on [the repo of the project](https://github.com/garronej/chan-dongle-extended).
+or reach me at *joseph.garrone.gj@gmail.com*
