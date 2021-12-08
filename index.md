@@ -37,8 +37,13 @@ Recommended debian versions: Stretch (9) or Buster (10).
 *It can work with newer versin as well, I haven't tested. Any report will be much apreciated at: joseph.garrone.gj@gmail.com*  
 If you chose to go with `Buster` or newer, you need to install `python 2` manually before running the installer.
 
+We recommend using Debian Buster 10.11.0 (it uses Kernel 4.19.0-18) because it's tested working with the Linux Kernel it ships with. 
+Other minor version variant might (or may not) have problems related with kernel header not having [an available package](https://packages.debian.org/fr/buster/linux-headers-amd64). Installing Linux Kerner header by hand is a pain.
+
 ```bash
 sudo su
+apt-get update
+apt-get install curl
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 python get-pip.py
 ```
@@ -47,7 +52,6 @@ You can also use Ubuntu, [every Ubuntu version have a corresponding Debian versi
 This means that:
     - Debian 9 Streatch <-> Ubuntu 17.10 artful, 17.04 zesty, 16.10  yakkety or 16.04 xenial
     - Debian 10 Buster <-> Ubuntu 19.10 eoan, 19.04  disco, 18.10 cosmic, 18.04 bionic
-
 
 
 ## Installing
