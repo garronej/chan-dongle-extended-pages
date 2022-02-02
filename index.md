@@ -30,6 +30,16 @@ of ``asterisk-chan-dongle`` alongside fixing bugs and providing many new feature
     when a supported device is connected it is automatically detected  
     by the module and instantiated for you.  
 
+## February 2022 update
+
+tty0tty update,  
+chan-dongle-extended have been reported working with:  
+
+kernel version  5.13.0-28-generic  
+Distributor ID: Ubuntu  
+Description:    Ubuntu 21.10  
+Release:        21.10  
+Codename:       impish  
 
 ## December 2021 update
 
