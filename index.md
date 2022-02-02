@@ -41,11 +41,11 @@ We recommend using Debian Buster 10.11.0 (it uses Kernel 4.19.0-18) because it's
 Other minor version variant might (or may not) have problems related with kernel header not having [an available package](https://packages.debian.org/fr/buster/linux-headers-amd64). Installing Linux Kerner header by hand is a pain.
 
 You can also use Ubuntu, [every Ubuntu version have a corresponding Debian version](https://askubuntu.com/a/445496).  
-This means that:
-    - Debian 9 Streatch <-> Ubuntu 17.10 artful, 17.04 zesty, 16.10  yakkety or 16.04 xenial
-    - Debian 10 Buster <-> Ubuntu 19.10 eoan, 19.04  disco, 18.10 cosmic, 18.04 bionic
+This means that:  
+    - Debian 9 Streatch <-> Ubuntu 17.10 artful, 17.04 zesty, 16.10  yakkety or 16.04 xenial  
+    - Debian 10 Buster <-> Ubuntu 19.10 eoan, 19.04  disco, 18.10 cosmic, 18.04 bionic  
     
-You must also run theres command before running the installer: 
+You must also run theses command before running the installer:  
 
 ```bash
 sudo su
@@ -194,5 +194,4 @@ In order to reassemble the message you must base64 decode the concatenation of a
 
 
 Any feedback highly appreciated.
-Feel free to open an issue or start a discution on [the repo of the project](https://github.com/garronej/chan-dongle-extended).
-or reach me at *joseph.garrone.gj@gmail.com*
+Feel free to open an issue or start a discution on [the repo of the project](https://github.com/garronej/chan-dongle-extended).  
