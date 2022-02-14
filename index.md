@@ -149,7 +149,7 @@ same = n,Hangup()
 exten = sms-status-report,1,NoOp(sms-status-report)
 same = n,NoOp(STATUS_REPORT_DISCHARGE_TIME=${STATUS_REPORT_DISCHARGE_TIME})
 same = n,NoOp(STATUS_REPORT_IS_DELIVERED=${STATUS_REPORT_IS_DELIVERED})
-same = n,NoOp(STATUS_REPORT_SEND_TIME=${STATUS_REPORT_ID})
+same = n,NoOp(STATUS_REPORT_ID=${STATUS_REPORT_SEND_TIME})
 same = n,NoOp(STATUS_REPORT_STATUS=${STATUS_REPORT_STATUS})
 same = n,Hangup()
 ````
