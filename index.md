@@ -41,6 +41,8 @@ Description:    Ubuntu 21.10
 Release:        21.10  
 Codename:       impish  
 
+Please [report](https://github.com/garronej/chan-dongle-extended/issues) if it breaks things with older linux Kernel.
+
 ## December 2021 update
 
 Recommended debian versions: Stretch (9) or Buster (10).  
