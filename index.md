@@ -29,6 +29,13 @@ of ``asterisk-chan-dongle`` alongside fixing bugs and providing many new feature
     No need to configure devices in dongle.conf anymore,  
     when a supported device is connected it is automatically detected  
     by the module and instantiated for you.  
+    
+## July 2022 update
+
+Reported working on Rapberry PI 4 with Ubuntu 18.04. (Installed using [this guide](https://qengineering.eu/install-ubuntu-18.04-on-raspberry-pi-4.html))  
+
+![image](https://user-images.githubusercontent.com/6702424/178040865-4d2fbbd9-716c-438f-81ec-ea9aab2c971c.png)
+
 
 ## February 2022 update
 
