@@ -132,7 +132,7 @@ Once unlocked you can see that the modem is handled by ``asterisk-chan-dongle``
 
 ![image](https://user-images.githubusercontent.com/6702424/48592557-3ec85180-e949-11e8-9fa3-44d07c1d7517.png)
 
-A npm module is available to interface the service programmatically: ``garronej/chan-dongle-extended-client`` ( not documented yet )
+A npm module is available to interface the service programmatically with Node.js: [`garronej/chan-dongle-extended-client`](https://github.com/garronej/chan-dongle-extended-client)  
 
 ## Handling multi parts SMS via the dialplan.
 
