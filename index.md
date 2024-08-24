@@ -217,6 +217,9 @@ In order to reassemble the message you must base64 decode the concatenation of a
 
 ## Report bugs
 
-
 Any feedback highly appreciated.
 Feel free to open an issue or start a discution on [the repo of the project](https://github.com/garronej/chan-dongle-extended).  
+
+## Need some compatible GSM Dongle?  
+
+I have a stock that I can sell. Contact me at: joseph.garrone@protonmail.com
